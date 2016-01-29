@@ -3,7 +3,7 @@
 [wiki]: https://en.wikipedia.org/wiki/Portable_Network_Graphics
 [spec]: https://www.w3.org/TR/PNG/
 
-| | |
+| File type | PNG |
 |---|---|
 |**Description** | Portable Network Graphics
 |**Extension**| `.png`
