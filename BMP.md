@@ -32,7 +32,7 @@
 - [An introduction to DIBs (Device Independent Bitmaps)][herdsoft.com]
 - *Dr. Dobb's journal of software tools*: [The BMP File Format, Part 1 By David Charlap][drdobbs.com]
 
-[wikipedia]: https://en.wikipedia.org/wiki/BMP_file_format
-[digicamsoft]: http://www.digicamsoft.com/bmp/bmp.html
-[herdsoft]: http://www.herdsoft.com/ti/davincie/imex3j8i.htm
-[drdobbs]: (http://www.drdobbs.com/architecture-and-design/the-bmp-file-format-part-1/184409517)
+[wikipedia.org]: https://en.wikipedia.org/wiki/BMP_file_format
+[digicamsoft.com]: http://www.digicamsoft.com/bmp/bmp.html
+[herdsoft.com]: http://www.herdsoft.com/ti/davincie/imex3j8i.htm
+[drdobbs.com]: (http://www.drdobbs.com/architecture-and-design/the-bmp-file-format-part-1/184409517)
