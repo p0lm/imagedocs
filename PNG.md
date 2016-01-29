@@ -3,8 +3,8 @@
 [wiki]: https://en.wikipedia.org/wiki/Portable_Network_Graphics
 [spec]: https://www.w3.org/TR/PNG/
 
-| Name | PNG |
-|---   |---  |
+| | |
+|---|---|
 |**Description** | Portable Network Graphics
 |**Extension**| `.png`
 |**Mime Type**| `image/png`  
