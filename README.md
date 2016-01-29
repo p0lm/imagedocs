@@ -14,7 +14,7 @@
 ### Image file formats supporting indexed color
 | Format | 1-bit | 2-bit | 3-bit | 4-bit | 5-bit | 6-bit | 7-bit | 8-bit |
 |--------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| BMP[bmp]    |   x   |       |       |   x   |       |       |       |   x   |
+| [BMP][bmp]    |   x   |       |       |   x   |       |       |       |   x   |
 | GIF    |   x   |   x   |   x   |   x   |   x   |   x   |   x   |   x   |
 | ILBM   |   x   |   x   |   x   |   x   |   x   |   x   |   x   |   x   |
 | PCX    |   x   |   x   |       |   x   |       |       |       |   x   |
@@ -89,7 +89,7 @@
 | Name | Size | Required | Comments |
 |------|------|----------|----------|
 | Bitmap file header | 14 bytes | yes | |
-| DIB header | 12, 40, 52, 56, 64, 108 or 124 bytes | yes | |
+| [DIB header][dib-header] | 12, 40, 52, 56, 64, 108 or 124 bytes | yes | |
 | Extra bit masks | 12 or 16 bytes | DIB header is `BITMAPINFOHEADER` and <br> Compression Method is `BI_BITFIELDS` or `BI_ALPHABITFIELDS` | |
 | Color table | variable | Color depth ≤ 8 bits | |
 | Gap1 | variable | no | Alignment |
