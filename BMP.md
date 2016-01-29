@@ -28,9 +28,9 @@
 
 
 #### Other resources
-- [Bitmap File Structure][digicamsoft.com]
-- [An introduction to DIBs (Device Independent Bitmaps)][herdsoft.com]
-- *Dr. Dobb's journal of software tools*: [The BMP File Format, Part 1 By David Charlap][drdobbs.com]
+- [Bitmap File Structure][bmp: digicamsoft.com]
+- [An introduction to DIBs (Device Independent Bitmaps)][bmp: herdsoft.com]
+- *Dr. Dobb's journal of software tools*: [The BMP File Format, Part 1 By David Charlap][bmp: drdobbs.com]
 
 [bmp: wikipedia.org]: https://en.wikipedia.org/wiki/BMP_file_format
 [bmp: digicamsoft.com]: http://www.digicamsoft.com/bmp/bmp.html
