@@ -3,11 +3,10 @@
 #### Major Formats
 | Format | Description | Extension | Mime Type | Specs | Wikipedia |
 |--------|-------------|-----------|-----------|-------|-----------|
-| [BMP][BMP.md] | Device-independent Bitmap | `.bmp`, `.dip`, `.rle` | `image/bmp`, `image/x-bmp` | | [wikipedia.org][BMP.md/bmp: wikipedia]
-| [GIF][GIF.md] | Graphics Interchange Format | `.gif` | `image/gif` | [w3.org]( 	www.w3.org/Graphics/GIF/spec-gif89a.txt) | [wikipedia.org](https://en.wikipedia.org/wiki/Graphics_Interchange_Format)
-| [JPEG][JPEG.md] | Joint Photographic Experts Group | `.jpg`, `.jpeg`, `.jpe`, `.jif`, `.jfif`, `.jfi` | `image/jpeg` | [jpeg.org](http://www.jpeg.org/jpeg/) | [wikipedia.org](https://en.wikipedia.org/wiki/JPEG)
-| [PNG][PNG.md] | Portable Network Graphics | `.png` | |  [w3.org](https://www.w3.org/TR/PNG/#3sample) | [wikipedia.org](https://nl.wikipedia.org/wiki/Portable_Network_Graphics)
-| TIFF | Tagged Image File Format | `.tif`, `.tiff` | `image/tiff`, `image/tiff-fx` | [adobe.com](http://partners.adobe.com/public/developer/tiff/) | [wikipedia.org](https://en.wikipedia.org/wiki/Tagged_Image_File_Format)
+| [BMP](BMP.md) | Device-independent Bitmap | `.bmp`, `.dip`, `.rle` | `image/bmp`, `image/x-bmp` | | [wikipedia.org](BMP.md/bmp: wikipedia)
+| [GIF](GIF.md) | Graphics Interchange Format | `.gif` | `image/gif` | [w3.org]( 	www.w3.org/Graphics/GIF/spec-gif89a.txt) | [wikipedia.org](https://en.wikipedia.org/wiki/Graphics_Interchange_Format)
+| [JPEG](JPEG.md) | Joint Photographic Experts Group | `.jpg`, `.jpeg`, `.jpe`, `.jif`, `.jfif`, `.jfi` | `image/jpeg` | [jpeg.org](http://www.jpeg.org/jpeg/) | [wikipedia.org](https://en.wikipedia.org/wiki/JPEG)
+| [PNG][(PNG.md) | Portable Network Graphics | `.png` | |  [w3.org](https://www.w3.org/TR/PNG/#3sample) | [wikipedia.org](https://nl.wikipedia.org/wiki/Portable_Network_Graphics)
 
 #### Others
 | Format | Description | Extension | Mime Type | Specs | Wikipedia |
@@ -17,6 +16,7 @@
 | PCX | PC Paintbrush Image File | `.pcx` | |  | [wikipedia.org](https://en.wikipedia.org/wiki/PCX)
 | PSD | Adobe Photoshop Document | `.psd` | | | [wikipedia.org](https://en.wikipedia.org/wiki/Adobe_Photoshop#features)
 | TGA | TARGA File Format | `.tga`, `.vda`, `.icb`, `.vst` | | | [wikipedia.org](https://en.wikipedia.org/wiki/Truevision_TGA)
+| [TIFF](TIFF.md) | Tagged Image File Format | `.tif`, `.tiff` | `image/tiff`, `image/tiff-fx` | [adobe.com](http://partners.adobe.com/public/developer/tiff/) | [wikipedia.org](https://en.wikipedia.org/wiki/Tagged_Image_File_Format)
 
 ## General information
 - Wikipedia: [Image file formats](https://en.wikipedia.org/wiki/Image_file_formats)
