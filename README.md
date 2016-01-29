@@ -14,7 +14,7 @@
 ### Image file formats supporting indexed color
 | Format | 1-bit | 2-bit | 3-bit | 4-bit | 5-bit | 6-bit | 7-bit | 8-bit |
 |--------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| [BMP][bmp]    |   x   |       |       |   x   |       |       |       |   x   |
+| [BMP](#bmp)    |   x   |       |       |   x   |       |       |       |   x   |
 | GIF    |   x   |   x   |   x   |   x   |   x   |   x   |   x   |   x   |
 | ILBM   |   x   |   x   |   x   |   x   |   x   |   x   |   x   |   x   |
 | PCX    |   x   |   x   |       |   x   |       |       |       |   x   |
