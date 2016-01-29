@@ -1,66 +1,5 @@
-# Documentation on image formats
-
-## General
-- Wikipedia: [Image file formats](https://en.wikipedia.org/wiki/Image_file_formats)
-- Wikipedia category: [Graphic File Formats](https://en.wikipedia.org/wiki/Category:Graphics_file_formats)
-
-## Pixel formats
-- [Dr. Bill's Notes on "Little Endian" vs. "Big Endian"](https://people.cs.umass.edu/~verts/cs32/endian.html)
-- MSDN blog: [Pixel Formats (Part 1: Unsigned Integers)](http://blogs.msdn.com/b/billcrow/archive/2006/06/19/636858.aspx)
-- MSDN blog: [Pixel Formats (Part 2: Fixed Point and Floating Point)](http://blogs.msdn.com/b/billcrow/archive/2006/06/22/642213.aspx)
-- Wikipedia: [Color depth](https://en.wikipedia.org/wiki/Color_depth)
-- Wikipedia: [Indexed color](https://en.wikipedia.org/wiki/Indexed_color)
-
-### Image file formats supporting indexed color
-| Format | 1-bit | 2-bit | 3-bit | 4-bit | 5-bit | 6-bit | 7-bit | 8-bit |
-|--------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| [BMP](#bmp)    |   x   |       |       |   x   |       |       |       |   x   |
-| GIF    |   x   |   x   |   x   |   x   |   x   |   x   |   x   |   x   |
-| ILBM   |   x   |   x   |   x   |   x   |   x   |   x   |   x   |   x   |
-| PCX    |   x   |   x   |       |   x   |       |       |       |   x   |
-| PNG    |   x   |   x   |       |   x   |       |       |       |   x   |
-| PSD    |       |       |       |       |       |       |       |   x   |
-| TGA    |       |       |       |       |       |       |       |   x   |
-| TIFF   |   x   |   x   |   x   |   x   |   x   |   x   |   x   |   x   |
-
-*source: [Indexed color (wikipedia.org)](https://en.wikipedia.org/wiki/Indexed_color)*
-
-
-### Endianess
-| Format | Description                   | Endianess     |
-|--------|-------------------------------|---------------|
-| AVI    | Microsoft RIFF                |          Both |
-| BMP    | Windows and OS/2 Bitmaps      | Little Endian |
-| DXF    | AutoCad                       |      Variable |
-| GIF    |                               | Little Endian |
-| IMG    | GEM Raster                    |    Big Endian |
-| JPEG   |                               |    Big Endian |
-| FLI    | Autodesk Animator             | Little Endian |
-| PCX    | PC Paintbrush                 | Little Endian |
-| PNG    |                               |    Big Endian |
-| PSD    | Adobe Photoshop               |    Big Endian |
-| QTM    | Quicktime Movies              | Little Endian |
-| RTF    | Microsoft Rich Text Format    | Little Endian |
-| SGI    | Silicon Graphics              |    Big Endian |
-| TGA    | Targa                         | Little Endian |
-| TIFF   |                               |          Both |
-| WAV    | Microsoft RIFF                |          Both |
-| WPG    | WordPerfect Graphics Metafile |    Big Endian |
-| XWD    | X Window Dump                 |          Both |
-
-*source: [Dr. Bill's Notes on "Little Endian" vs. "Big Endian"]()*
-
-## Colors
-### Color spaces
-- MSDN blog: [HDR and Color Spaces](http://blogs.msdn.com/b/billcrow/archive/2007/10/25/hdr-and-color-spaces.aspx)
-
-### Palettes
-- Wikipedia: [List of monochrome and RGB palettes](https://en.wikipedia.org/wiki/List_of_monochrome_and_RGB_palettes)
-
 ## File formats
-
 ### Overview
-
 #### Major Formats
 | Format | Description | Extension | Mime Type | Specs | Wikipedia |
 |--------|-------------|-----------|-----------|-------|-----------|
@@ -118,3 +57,62 @@
 [bmp: digicamsoft.com]: http://www.digicamsoft.com/bmp/bmp.html
 [bmp: herdsoft.com]: http://www.herdsoft.com/ti/davincie/imex3j8i.htm
 [bmp: drdobbs.com]: http://www.drdobbs.com/architecture-and-design/the-bmp-file-format-part-1/184409517
+
+
+# Documentation on image formats
+
+## General
+- Wikipedia: [Image file formats](https://en.wikipedia.org/wiki/Image_file_formats)
+- Wikipedia category: [Graphic File Formats](https://en.wikipedia.org/wiki/Category:Graphics_file_formats)
+
+## Pixel formats
+- [Dr. Bill's Notes on "Little Endian" vs. "Big Endian"](https://people.cs.umass.edu/~verts/cs32/endian.html)
+- MSDN blog: [Pixel Formats (Part 1: Unsigned Integers)](http://blogs.msdn.com/b/billcrow/archive/2006/06/19/636858.aspx)
+- MSDN blog: [Pixel Formats (Part 2: Fixed Point and Floating Point)](http://blogs.msdn.com/b/billcrow/archive/2006/06/22/642213.aspx)
+- Wikipedia: [Color depth](https://en.wikipedia.org/wiki/Color_depth)
+- Wikipedia: [Indexed color](https://en.wikipedia.org/wiki/Indexed_color)
+
+### Image file formats supporting indexed color
+| Format | 1-bit | 2-bit | 3-bit | 4-bit | 5-bit | 6-bit | 7-bit | 8-bit |
+|--------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+| [BMP](#bmp)    |   x   |       |       |   x   |       |       |       |   x   |
+| GIF    |   x   |   x   |   x   |   x   |   x   |   x   |   x   |   x   |
+| ILBM   |   x   |   x   |   x   |   x   |   x   |   x   |   x   |   x   |
+| PCX    |   x   |   x   |       |   x   |       |       |       |   x   |
+| PNG    |   x   |   x   |       |   x   |       |       |       |   x   |
+| PSD    |       |       |       |       |       |       |       |   x   |
+| TGA    |       |       |       |       |       |       |       |   x   |
+| TIFF   |   x   |   x   |   x   |   x   |   x   |   x   |   x   |   x   |
+
+*source: [Indexed color (wikipedia.org)](https://en.wikipedia.org/wiki/Indexed_color)*
+
+### Endianess
+| Format | Description                   | Endianess     |
+|--------|-------------------------------|---------------|
+| AVI    | Microsoft RIFF                |          Both |
+| BMP    | Windows and OS/2 Bitmaps      | Little Endian |
+| DXF    | AutoCad                       |      Variable |
+| GIF    |                               | Little Endian |
+| IMG    | GEM Raster                    |    Big Endian |
+| JPEG   |                               |    Big Endian |
+| FLI    | Autodesk Animator             | Little Endian |
+| PCX    | PC Paintbrush                 | Little Endian |
+| PNG    |                               |    Big Endian |
+| PSD    | Adobe Photoshop               |    Big Endian |
+| QTM    | Quicktime Movies              | Little Endian |
+| RTF    | Microsoft Rich Text Format    | Little Endian |
+| SGI    | Silicon Graphics              |    Big Endian |
+| TGA    | Targa                         | Little Endian |
+| TIFF   |                               |          Both |
+| WAV    | Microsoft RIFF                |          Both |
+| WPG    | WordPerfect Graphics Metafile |    Big Endian |
+| XWD    | X Window Dump                 |          Both |
+
+*source: [Dr. Bill's Notes on "Little Endian" vs. "Big Endian"]()*
+
+## Colors
+### Color spaces
+- MSDN blog: [HDR and Color Spaces](http://blogs.msdn.com/b/billcrow/archive/2007/10/25/hdr-and-color-spaces.aspx)
+
+### Palettes
+- Wikipedia: [List of monochrome and RGB palettes](https://en.wikipedia.org/wiki/List_of_monochrome_and_RGB_palettes)
