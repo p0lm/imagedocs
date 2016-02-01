@@ -201,7 +201,7 @@ Thanks!
 > - Title
 > - Formatting
 
-This is the second part of a discussion of the pixel formats supported by Windows Media Photo. I definitely recommend you read Part 1 ([below][#part-1-unsigned-integers]) first. It will provide some important background information that will help with the understanding of Part 2.
+This is the second part of a discussion of the pixel formats supported by Windows Media Photo. I definitely recommend you read Part 1 ([below](#part-1-unsigned-integers)) first. It will provide some important background information that will help with the understanding of Part 2.
 
 
 ### The Mess We’re in Today
