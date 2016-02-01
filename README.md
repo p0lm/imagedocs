@@ -30,16 +30,16 @@
 - Wikipedia: [Indexed color](https://en.wikipedia.org/wiki/Indexed_color)
 
 ## Image file formats supporting indexed color
-| Format | 1-bit | 2-bit | 3-bit | 4-bit | 5-bit | 6-bit | 7-bit | 8-bit |
-|--------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| [BMP](BMP.md)    |   x   |       |       |   x   |       |       |       |   x   |
-| GIF    |   x   |   x   |   x   |   x   |   x   |   x   |   x   |   x   |
-| ILBM   |   x   |   x   |   x   |   x   |   x   |   x   |   x   |   x   |
-| PCX    |   x   |   x   |       |   x   |       |       |       |   x   |
-| PNG    |   x   |   x   |       |   x   |       |       |       |   x   |
-| PSD    |       |       |       |       |       |       |       |   x   |
-| TGA    |       |       |       |       |       |       |       |   x   |
-| TIFF   |   x   |   x   |   x   |   x   |   x   |   x   |   x   |   x   |
+| Format          | 1-bit | 2-bit | 3-bit | 4-bit | 5-bit | 6-bit | 7-bit | 8-bit |
+|-----------------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+| [BMP](BMP.md)   |   ✓   |       |       |   ✓   |       |       |       |   ✓   |
+| [GIF](GIF.md)   |   ✓   |   ✓   |   ✓   |   ✓   |   ✓   |   ✓   |   ✓   |   ✓   |
+| [ILBM](ILBM.md) |   ✓   |   ✓   |   ✓   |   ✓   |   ✓   |   ✓   |   ✓   |   ✓   |
+| [PCX](PCX.md)   |   ✓   |   ✓   |       |   ✓   |       |       |       |   ✓   |
+| [PNG](PNG.md)   |   ✓   |   ✓   |       |   ✓   |       |       |       |   ✓   |
+| [PSD](PSD.md)   |       |       |       |       |       |       |       |   ✓   |
+| [TGA](TGA.md)   |       |       |       |       |       |       |       |   ✓   |
+| [TIFF](TIFF.md) |   ✓   |   ✓   |   ✓   |   ✓   |   ✓   |   ✓   |   ✓   |   ✓   |
 
 *source: [Indexed color (wikipedia.org)](https://en.wikipedia.org/wiki/Indexed_color)*
 
